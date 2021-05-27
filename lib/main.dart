@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 
+import 'screens/login_screen.dart';
+
 void main() {
   runApp(MyApp());
 }
@@ -13,6 +15,7 @@ class MyApp extends StatelessWidget {
         primaryColor: Color(0xFF2FA283),
         scaffoldBackgroundColor: Color(0xFFA22F4E),
       ),
+      home: LoginPage(),
     );
   }
 }
