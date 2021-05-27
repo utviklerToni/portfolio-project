@@ -7,9 +7,11 @@ void main() {
 class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-    return Container(
-      child: Text(
-        'Hello Node.js'
+    return MaterialApp(
+      debugShowCheckedModeBanner: false,
+      theme: ThemeData.light().copyWith(
+        primaryColor: Color(0xFF2FA283),
+        scaffoldBackgroundColor: Color(0xFFA22F4E),
       ),
     );
   }
