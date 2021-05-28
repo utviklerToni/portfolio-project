@@ -1,5 +1,9 @@
 # bruker_auten
 
+En innlogging app basert på Flutter og Node.js
+
+
+
 A new Flutter project.
 
 ## Getting Started
